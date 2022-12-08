@@ -155,7 +155,7 @@ const initApp = () => {
     });
 
     const clear = document.querySelectorAll('.clear, .clearEntry');
-    clearButtons.forEach(button => {
+    clear.forEach(button => {
         button.addEventListener('click', (event) => {
             currentValueElem.value = 0;
             previousValueElem.textContent = '';
