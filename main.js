@@ -13,7 +13,7 @@ function add(a, b) {
 function substract(a, b) {
     let sum = 0;
     if(a == "Infinity"){
-        sum = a;
+        sum = b;
         console.log("Infinity Substract");
     }
     else{
